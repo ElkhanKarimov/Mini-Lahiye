@@ -1,0 +1,105 @@
+.btn{
+    border: 1px solid #F15B43;
+    background-color: #F15B43;
+    width: 200px;
+    height: 70px;
+    color: white;
+    border-radius: 0%;
+}
+.ongoing{
+    width: 200px;
+    height: 70px;
+    font-size: 15px;
+    color: white;
+    background-color: #65C9BB;
+    border: 1px solid #65C9BB;
+}
+.join{
+    width: 150px;
+    height: 50px;
+    font-size: 17px;
+    color: white;
+    background-color:rgb(241,91,67) ;
+    border: 1px solid rgb(241,91,67);
+}
+.sec2-btn1{
+    width: 200px;
+    height: 70px;
+    color: white;
+    font-weight: 500;
+    background-color: #F15B43;
+    border: 2px solid #F15B43;
+    font-size: 20px;
+}
+.sec2-btn2{
+    width: 200px;
+    height: 70px;
+    color: #F15B43 ;
+    background-color:rgb(252,242,235) ;
+    border: 2px solid #F15B43;
+    font-size: 20px;
+}
+
+.sec2-btn1:hover{
+    transition: 0.2s linear;
+    background-color: rgb(252,242,235);
+    color: #F15B43;
+}
+
+.sec2-btn2:hover{
+    transition: 0.2s linear;
+    background-color: #F15B43;
+    color: rgb(252,242,235);
+}
+.goal-btn{
+    width: 170px;
+    height: 50px;
+    color: white ;
+    background-color:#F15B43 ;
+    border: 2px solid #F15B43;
+    font-size: 20px;
+}
+.sec5-btn1{
+    width: 200px;
+    height: 70px;
+    color: #F15B43 ;
+    background-color:white ;
+    border: 2px solid #F15B43;
+    font-size: 20px;
+}
+.sec5-btn1:hover{
+    transition: 0.2s linear;
+    background-color: #F15B43;
+    color: white ;
+}
+.goal-btn:hover{
+    transition: 0.2s linear;
+    background-color: white;
+    color:#F15B43 ;
+}
+.search-btn{
+    width: 100px;
+    height: 50px;
+    border: 1px solid rgb(101,201,187);
+    background-color: rgb(101,201,187);
+    color: white;
+}
+.new-btn{
+    width: 350px;
+    height: 50px;
+    border: 1px solid rgb(101,201,187);
+    color: rgb(101,201,187);
+    background-color: white;
+}
+
+@media only screen and (max-width: 475px) {
+   .sec2-btn1 ,
+   .sec2-btn2{
+    width: 150px;
+    height: 55px;
+   margin-bottom: 10px;
+    font-size: 18px;
+   }
+
+
+}

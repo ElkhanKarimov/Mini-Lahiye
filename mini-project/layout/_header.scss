@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+.container-fluid    {
+    background-color: #263B5C;
+    padding: 0px 50px;
+    height: 100px;
+    gap: 70px;
+}
+.navbar{
+    height: 100px;
+}
+.dashed{
+    border-bottom: 1px dashed white;
+}
+.nav-link.active{
+    color: white !important;
+}

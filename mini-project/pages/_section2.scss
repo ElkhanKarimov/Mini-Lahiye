@@ -1,0 +1,121 @@
+.section2{
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    gap: 100px;
+    background-color: rgb(252,242,235);
+    height: 584px;
+    padding: 0px 100px 0px 100px;
+
+}
+.sec2-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 636px;
+    height: auto;
+}
+.sec2-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec2-info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 415px;
+    height: 377px;
+}
+
+
+@media only screen and (max-width: 1422px) {
+    .section2 {
+        padding: 0px 0px 0px 100px;
+    }
+
+    .sec2-div {
+        width: 550px;
+        margin-right: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 1270px) {
+    .section2{
+        gap: 20px;
+        padding: 0px 0px 0px 30px;
+    }
+}
+
+@media only screen and (max-width: 1035px) {
+   .section2{
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-top: 50px;
+    height: auto;
+    gap: 35px;
+   }
+   .sec2-img{
+    width: 100%;
+    max-width: 455px;
+    height: auto;
+   }
+   .sec2-div{
+    display: flex;
+    justify-content: start;
+   }
+   .sec2-info{
+    width: 58%;
+   }
+}
+
+
+@media only screen and (max-width: 800px) {
+    .section2{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        padding: 50px;
+    }
+    .sec2-img{
+        width: 100%;
+        max-width: 516px;
+    }
+    .sec2-info{
+        width: 90%;
+        display: flex;
+        justify-content: start;
+    }
+    
+}
+
+
+@media only screen and (max-width: 675px) {
+    .section2 {
+        padding: 40px 20px
+    }
+
+
+}
+
+@media only screen and (max-width: 575px) {
+ 
+   .section2{
+    padding: 40px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+   }
+
+.sec2-img{
+width: 0px;
+height: auto;
+}
+}

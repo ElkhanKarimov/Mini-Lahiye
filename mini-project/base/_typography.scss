@@ -1,0 +1,73 @@
+.kk{
+    width: 515px;
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+.kh1{
+    width: 515px;
+    font-size: 70px;
+    margin-bottom: 10px;
+    line-height: 1;
+    line-break: 1;
+}
+a{
+    text-decoration: none;
+}
+.sec2-h2{
+    font-size: 46px;
+}
+.upcoming{
+    font-size: 16px;
+}
+.sec2-p{
+    font-size: 18px;
+}
+.about-us{
+    font-size: 16px;
+}
+.spans{
+    font-size: 18px;
+    font-weight: 600;
+}
+.sec7-h3{
+    font-size: 46px;
+}
+.read{
+    font-weight: 600;
+}
+.nav2-h1{
+    font-size: 50px;
+}
+.cat-a{
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+   .kh1{
+    font-size: 45px;
+
+   }
+   .kk{
+    font-size: 18px;
+   }
+}
+@media only screen and (max-width: 575px) {
+    .kk {
+        width: 100% ;
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .kh1 {
+        width: 100% ;
+        font-size: 40px;
+        margin-bottom: 3px;
+    }
+}
+
+
+@media only screen and (max-width: 800px) {
+   .sec2-h2{
+    font-size: 31px;
+   }
+}

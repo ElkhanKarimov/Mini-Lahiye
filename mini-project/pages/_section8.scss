@@ -1,0 +1,138 @@
+.section8{
+    height: 1500px;
+    position: relative;
+    top: 400px;
+    
+}
+.card-body{
+    background-color: white;
+    border: none;
+}
+.search{
+    width: 415px;
+    height: 110px;
+    background-color: rgb(251,249,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.category{
+    width: 415px;
+    height: 444px;
+    background-color: rgb(251,249,255);
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+}
+.category-links{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.recent{
+    width: 415px;
+    height: 519px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+}
+.recent-texts{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+.recent-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.clouds{
+    width: 415px;
+    height: 250px;
+    background-color: rgb(251,249,255) ;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+}
+.cld{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.cld1{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.cld2{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.cld3{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.feeds{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+    width: 415px;
+    height: 390px;
+    background-color: rgb(251,249,255);
+}
+.feed{
+    display: flex;
+    gap: 10px;
+}
+.feed1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.newsletter{
+    width: 415px;
+    height: 264px;
+    background-color: rgb(251,249,255) ;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.inputnew{
+    width: 350px;
+    height: 50px;
+}
+.new{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.blog-page{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 200px;
+    gap: 100px;
+}
+.left{
+    width: 600px;
+}
+
+
+
+
+
